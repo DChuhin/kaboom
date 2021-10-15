@@ -1,0 +1,31 @@
+{
+  "name": "kaboom-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --hot --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniil Chukhin",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "kaboom": "^0.5.1",
+    "node-sass": "^6.0.1",
+    "querystring-es3": "^0.2.1",
+    "util": "^0.12.4"
+  }
+}
